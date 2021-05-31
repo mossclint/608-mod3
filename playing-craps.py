@@ -1,6 +1,6 @@
 # fig04_01.py
-  
-  import random
+ 
+import random
  
   # face frequency counters
   frequency1 = 0
