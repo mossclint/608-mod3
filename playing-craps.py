@@ -1,4 +1,4 @@
-  import random
+import random
  
   # face frequency counters
   frequency1 = 0
