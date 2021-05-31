@@ -1,6 +1,6 @@
 # fig04_01.py
   
- import random
+  import random
  
   # face frequency counters
   frequency1 = 0
@@ -11,7 +11,7 @@
   frequency6 = 0
 
  # 6,000,000 die rolls
- for roll in range(6_000_000):  # note underscore separators
+  for roll in range(6_000_000):  # note underscore separators
     face = random.randrange(1,7) + random.randrange(1,7)
 
      # increment appropriate face counter
