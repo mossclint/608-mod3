@@ -1,12 +1,12 @@
 import random
  
   # face frequency counters
-  frequency1 = 0
-  frequency2 = 0
-  frequency3 = 0
-  frequency4 = 0
-  frequency5 = 0
-  frequency6 = 0
+frequency1 = 0
+frequency2 = 0
+frequency3 = 0
+frequency4 = 0
+frequency5 = 0
+frequency6 = 0
 
   # 6,000,000 die rolls
  for roll in range(6_000_000):  # note underscore separators
