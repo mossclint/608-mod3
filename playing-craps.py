@@ -60,5 +60,5 @@ print(f'{12:>4}{frequency12:>13}')
 
 craps = frequency2 + frequency3 + frequency12
 win = frequency7 + frequency11
-print ('Craps:', craps/trails)
+print ('Craps:', craps/trials)
 print ('Win:', win/trials)      
