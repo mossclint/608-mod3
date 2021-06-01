@@ -58,7 +58,7 @@ print(f'{10:>4}{frequency10:>13}')
 print(f'{11:>4}{frequency11:>13}')
 print(f'{12:>4}{frequency12:>13}')
 
- craps = frequency2 + frequency3 + frequency12
- win = frequency7 + frequency11
- print ('Craps:', craps/trails)
- print ('Win:', win/trials)      
+craps = frequency2 + frequency3 + frequency12
+win = frequency7 + frequency11
+print ('Craps:', craps/trails)
+print ('Win:', win/trials)      
