@@ -2,7 +2,7 @@ class Purchase(object):
   def __init__(self, amount):
     self.amount = amount
     
-  def calculatetax(self, taxPercent):
+  def calculateTax(self, taxPercent):
     return self.amount * taxPercent/100.0
 
   def calculateTip(self, tipPercent):
