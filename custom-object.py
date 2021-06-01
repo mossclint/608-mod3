@@ -1,5 +1,5 @@
 class Purchase(object):
-  def_init_(self, amount):
+  def__init__(self, amount):
     self.amount = amount
     
 def calculatetax(self, taxPercent):
