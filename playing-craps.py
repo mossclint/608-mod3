@@ -14,7 +14,8 @@ frequency10 = 0
 frequency11 = 0
 frequency12 = 0
 
- 
+trials = 6000000
+
 for roll in range(6_000_000):  # note underscore separators
      face = random.randrange(1,7) + random.randrange(1,7) 
 
