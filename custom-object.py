@@ -1,5 +1,5 @@
 class Purchase(object):
-  def__init__(self, amount):
+  def __init__(self, amount):
     self.amount = amount
     
   def calculatetax(self, taxPercent):
@@ -9,7 +9,7 @@ class Purchase(object):
     return self.amount * tipPercent/100.0
 
   def calculateTotal(self, taxPercent, tipPercent):
-    return self.amount * (1+taxPercent/100.0 + tipPercent/100.0)
+    return self.amount * (1 + taxPercent/100.0 + tipPercent/100.0)
 
 purchase = Purchase(100.0)
 
